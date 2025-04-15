@@ -1,0 +1,18 @@
+ÿØÿÛ«symbol TL071
+  «type: X»
+  «description: Machine generated symbol for TL071»
+  «library file: |.SUBCKT TL071 1 2 3 4 5\nC1 11 12 3.498E-12\nC2 6 7 15.00E-12\nDC 5 53 DX\nDE 54 5 DX\nDLP 90 91 DX\nDLN 92 90 DX\nDP 4 3 DX\nEGND 99 0 POLY(2) (3,0) (4,0) 0 .5 .5\nFB 7 99 POLY(5) VB VC VE VLP VLN 0 4.715E6 -5E6 5E6 5E6 -5E6\nGA 6 0 11 12 282.8E-6\nGCM 0 6 10 99 8.942E-9\nISS 3 10 DC 195.0E-6\nHLIM 90 0 VLIM 1K\nJ1 11 2 10 JX\nJ2 12 1 10 JX\nR2 6 9 100.0E3\nRD1 4 11 3.536E3\nRD2 4 12 3.536E3\nRO1 8 5 150\nRO2 7 99 150\nRP 3 4 2.143E3\nRSS 10 99 1.026E6\nVB 9 0 DC 0\nVC 3 53 DC 2.200\nVE 54 4 DC 2.200\nVLIM 7 8 DC 0\nVLP 91 0 DC 25\nVLN 0 92 DC 25\n.MODEL DX D(IS=800.0E-18)\n.MODEL JX PJF(IS=15.00E-12 BETA=270.1E-6 VTO=-1)\n.ENDS»
+  «shorted pins: false»
+  «line (100,300) (100,200) 0 0 0x1000000 -1 -1»
+  «line (100,-300) (100,-200) 0 0 0x1000000 -1 -1»
+  «triangle (-300,600) (500,0) (-300,-600) 0 0 0x1000000 0x2000000 -1 -1»
+  «text (300,350) 1 15 0 0x1000000 -1 -1 "U1"»
+  «text (0,0) 1 15 0 0x1000000 -1 -1 "TL071"»
+  «text (-200,300) 1 0 0 0x1000000 -1 -1 "-"»
+  «text (-200,-300) 1 0 0 0x1000000 -1 -1 "+"»
+  «pin (-300,-300) (20,0) 1 15 0 0x0 -1 "1"»
+  «pin (-300,300) (20,0) 1 15 0 0x0 -1 "2"»
+  «pin (0,400) (20,0) 1 15 0 0x0 -1 "3"»
+  «pin (0,-400) (140,20) 1 15 0 0x0 -1 "4"»
+  «pin (500,0) (-20,0) 1 15 0 0x0 -1 "5"»
+»
