@@ -32,3 +32,4 @@ IV. About QSPICE
 QSPICE is a circuit simulation software developed by Qorvo. It is a SPICE-based simulator designed for fast and accurate analysis of analog, digital, and mixed-signal circuits.
 https://www.qorvo.com/design-hub/design-tools/interactive/qspice
 
+last update July 2026 
